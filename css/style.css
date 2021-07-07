@@ -1,0 +1,15 @@
+nav.navbar{
+  padding: 0px;
+}
+
+nav .nav-item .active,
+nav .nav-item:hover{
+  font-weight: bold;
+}
+
+.card{
+  transition: transform .2s;
+}
+.card:hover{
+  transform: scale(1.05);
+}
